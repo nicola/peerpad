@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./peerpad/";
+/******/ 	__webpack_require__.p = "/peerpad/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 713);
@@ -21822,7 +21822,7 @@ var warning = __webpack_require__(1);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && Object({"NODE_ENV":"production","PUBLIC_URL":"./peerpad"}) && "production" === 'test') {
+if (typeof process !== 'undefined' && Object({"NODE_ENV":"production","PUBLIC_URL":"/peerpad"}) && "production" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
@@ -22970,7 +22970,7 @@ var warning = __webpack_require__(1);
 
 var ReactComponentTreeHook;
 
-if (typeof process !== 'undefined' && Object({"NODE_ENV":"production","PUBLIC_URL":"./peerpad"}) && "production" === 'test') {
+if (typeof process !== 'undefined' && Object({"NODE_ENV":"production","PUBLIC_URL":"/peerpad"}) && "production" === 'test') {
   // Temporary hack.
   // Inline requires don't work well with Jest:
   // https://github.com/facebook/react/issues/7240
